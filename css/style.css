@@ -43,7 +43,7 @@ nav {
 }
 
 .brand {
-	flex: 2;
+	flex: 1;
 	padding-left: 50px;
 }
 
@@ -65,14 +65,14 @@ nav {
 
 .navigation ul {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
-
 }
 
 .navigation a {
+	padding-left: 30px;
 	color: #57606f;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
