@@ -1,31 +1,115 @@
-*{
-	margin-top: 0;
+/*RESET*/
+* {
+	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
+	font-family: 'Athiti', sans-serif;
+	font-size: 16px;
 }
-p{
-	z-index: 10000;
+
+/*Fonts
+font-family: 'IM Fell French Canon SC', serif; // for brand
+font-family: 'Cedarville Cursive', cursive; // for styling
+font-family: 'Athiti', sans-serif; // for the whole page*/
+
+
+/*SITE STYLES*/
+body{
+	background-color: #FFFFFF;
+}
+
+a:hover {
+	color: #E85646!important;
+}
+
+/*NAVIGATION*/
+nav {
+	background-color: #FFFFFF;
+	opacity: .90;
+	position: fixed;
+	width: 100%;
+	height: 85px;
+	z-index: 1;
+	box-sizing: border-box;
+}
+
+nav {
+	border-bottom: 1px solid #cecece;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.brand {
+	flex: 2;
+	padding-left: 50px;
+}
+
+.brand a {
+	font-size: 24px;
+	font-weight : 800;
+	color: #111;
+}
+
+.fa-suitcase {
+	font-size: 27px;
+	padding-right: 20px
+}
+
+.navigation {
+	flex: 1;
+	padding-right: 50px;
+}
+
+.navigation ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.navigation a {
+	color: #57606f;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.navigation a:hover {
+	text-decoration: underline;
+}
+
+/*MAIN BODY*/
+p {
 	font-size: 100px;
 	text-align: center;
-	position: absolute;
 	width: 20%;
+	position: absolute;
 	padding-top: 100px;
 	color: white;
 	font-family: 'Lato';
 }
+
+.main-body {
+	position: absolute;
+	margin-top: 85px;
+}
+
 .container{
 	overflow: hidden;
+}
 
-}
 .sliderbox{
-	width: 90%;
-	height: 500px;
-	box-sizing: border-box;
-	box-shadow: 10px 10px 20px grey;
-	margin: 20px auto;
-}
-.sliderbox img{
 	width: 100%;
-	height: 500px;
+	height: 650px;
+	box-sizing: border-box;
+	margin: 0 auto;
 }
+
+.sliderbox img {
+	width: 100%;
+}
+
+/*FOOTER*/
