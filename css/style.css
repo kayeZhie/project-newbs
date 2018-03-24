@@ -23,13 +23,18 @@ a:hover {
 	color: #E85646!important;
 }
 
+.border-bottom {
+	border-bottom: 1px solid #dfe6e9;
+}
+
 /*NAVIGATION*/
-header{ 
+header { 
 	width: 100%;
 	position: fixed;
 	top: 0;
 	z-index: 1;
 }
+
 nav {
 	background-color: #FFFFFF;
 	opacity: .90;
@@ -39,11 +44,9 @@ nav {
 }
 
 nav {
-	border-bottom: 1px solid #cecece;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 }
 
 .brand {
@@ -58,12 +61,12 @@ nav {
 }
 
 .fa-suitcase {
-	font-size: 27px;
-	padding-right: 20px
+	font-size: 24px;
+	padding-right: 10px
 }
 
 .navigation {
-	flex: 1;
+	flex: 2;
 	padding-right: 50px;
 }
 
@@ -86,17 +89,7 @@ nav {
 }
 
 /*MAIN BODY*/
-.main-body h1 {
-	font-size: 80px;
-	text-align: center;
-	position: absolute;
-	padding-top: 100px;
-	color: white;
-	font-family: 'IM Fell French Canon SC', serif;
-}
-
 .main-body {
-	/*position: absolute;*/
 	width: 100%;
 	margin-top: 85px;
 }
@@ -107,33 +100,99 @@ nav {
 
 .sliderbox{
 	width: 100%;
-	height: 650px;
+	max-height: 700px;
 	box-sizing: border-box;
 	margin: 0 auto;
 }
 
 .sliderbox img {
 	width: 100%;
+	text-align: center;
+}
+
+.title h1 {
+	z-index: 3;
+	font-size: 80px;
+	position: absolute;
+	top: 28%;
+	color: #ffffff;
+	font-family: 'IM Fell French Canon SC', serif;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.headline-p {
+	width: 80%;
+	max-width: 1000px;
+	margin: 60px auto;
+}
+
+.headline-p p {
+	font-size: 18px;
+	font-weight: 600;
 }
 
 
 /*FEATUERED CITIES*/
-.featured-cities {
-	width: 900px;
-	max-width: 850px;
+#featured-cities {
+	width: 80%;
+	max-width: 1000px;
 	margin: 40px auto;
+}
+
+.city {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.city h1 {
+	padding: 40px 0;
+	color: #111;
+	font-size: 70px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .city-row {
 	width: 100%;
+	padding-bottom: 70px;
 	box-sizing: border-box;
 	display: flex;
-	justify-content: space-between;
 	box-sizing: border-box;
+	text-align: center;
 }
 
-.city-box img{
+.city-box {
+	border: 1px solid #dfe6e9;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 2px 12px -1px rgba(181,177,181,1);
+-moz-box-shadow: 0px 2px 12px -1px rgba(181,177,181,1);
+box-shadow: 0px 2px 12px -1px rgba(181,177,181,1);
+}
+
+.city-box-left {
+	margin-right: 20px;
+}
+
+.city-box-right {
+	margin-left: 20px;
+}
+
+.city-box p {
+	padding: 15px 10px 20px 10px;
+	font-family: 'Cedarville Cursive', cursive; 
+	font-size: 24px;
+	font-weight: 800;
+}
+
+.city-box img {
 	width: 100%;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 }
 
 
