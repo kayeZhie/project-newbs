@@ -112,11 +112,12 @@ nav {
 
 .title h1 {
 	z-index: 3;
-	font-size: 80px;
+	font-size: 100px;
 	position: absolute;
 	top: 28%;
 	color: #ffffff;
 	font-family: 'IM Fell French Canon SC', serif;
+	text-shadow: 1px 1px 2px #2d3436;
 }
 
 .title {
