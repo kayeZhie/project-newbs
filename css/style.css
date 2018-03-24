@@ -24,13 +24,17 @@ a:hover {
 }
 
 /*NAVIGATION*/
+header{ 
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
 nav {
 	background-color: #FFFFFF;
 	opacity: .90;
-	position: fixed;
 	width: 100%;
 	height: 85px;
-	z-index: 1;
 	box-sizing: border-box;
 }
 
@@ -82,18 +86,18 @@ nav {
 }
 
 /*MAIN BODY*/
-p {
-	font-size: 100px;
+.main-body h1 {
+	font-size: 80px;
 	text-align: center;
-	width: 20%;
 	position: absolute;
 	padding-top: 100px;
 	color: white;
-	font-family: 'Lato';
+	font-family: 'IM Fell French Canon SC', serif;
 }
 
 .main-body {
-	position: absolute;
+	/*position: absolute;*/
+	width: 100%;
 	margin-top: 85px;
 }
 
@@ -111,5 +115,30 @@ p {
 .sliderbox img {
 	width: 100%;
 }
+
+
+/*FEATUERED CITIES*/
+.featured-cities {
+	width: 900px;
+	max-width: 850px;
+	margin: 40px auto;
+}
+
+.city-row {
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.city-box img{
+	width: 100%;
+}
+
+
+
+/*TEAM*/
+
 
 /*FOOTER*/
