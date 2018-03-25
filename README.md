@@ -43,6 +43,8 @@ This is a project intended to provided experience in collaborating in a developm
 2. $ git pull origin development  
 3. $ git checkout < BRANCHNAME >
 
+### Things to do while coding
+
 ### Pushing your Commits
 1. $ git checkout development  
 2. $ git pull origin development  
