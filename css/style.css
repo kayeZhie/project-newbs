@@ -1,3 +1,4 @@
+
 /*RESET*/
 * {
 	margin: 0;
@@ -94,6 +95,12 @@ nav {
 	width: 100%;
 	margin-top: 85px;
 }
+.main-header{
+ display: none;
+ }
+img{
+	vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -102,11 +109,11 @@ nav {
   margin: auto;
 }
 
-/*.MainHeader{
-	display: none;*/
-}
+/*.main-header{
+	display: none;
+}*/
 
-.MainHeader{
+.main-header{
 	width: 100%;
 	max-height: 650px;
 	box-sizing: border-box;
@@ -114,10 +121,10 @@ nav {
 	overflow: hidden;
 }
 
-.MainHeader img{
+/*.main-header img{
 	width: 100%;
 	text-align: center;
-}
+}*/
 
 /* Next & previous buttons */
 .prev, .next {
@@ -145,9 +152,9 @@ nav {
   background-color: rgba(0,0,0,0.8);
 }
 
-.mainHeader{
+/*.main-header{
 	width: 100%;
-}
+}*/
 
 .title h1 {
 	z-index: 3;
@@ -193,7 +200,7 @@ nav {
 }
 
 /* Fading animation */
-.fade {
+.Slides {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -209,7 +216,10 @@ nav {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
 /*FEATUERED CITIES*/
 #featured-cities {
 	width: 80%;
@@ -274,4 +284,3 @@ box-shadow: 0px 2px 12px -1px rgba(181,177,181,1);
 
 
 /*FOOTER*/
-
