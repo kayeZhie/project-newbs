@@ -16,13 +16,15 @@ i. Use the terminal
 ii. Navigate to the folder you want to add the repo to
 
 ### Clone the repo:
- 1. $ git clone https://github.com/jmaldia/project-newbs.git
- 2. $ git checkout -b <BRANCHNAME>
-     - this creates the branch and immediately checks out the branch
-     - see below for branch naming convention
+ 1. Fork the repo and copy the URL
+ 2. $ git clone <YOURREPOURL>
  3. $ git remote add upstream https://github.com/jmaldia/project-newbs.git
      - this creates a connection to the main repo so
      - you will use this to sync your repo with the main
+ 4. $ git checkout -b <BRANCHNAME>
+     - this creates the branch and immediately checks out the branch
+     - see below for branch naming convention
+ 
 
 > **Branch Naming Convention**
 > - Branch names consists of 3 elements
