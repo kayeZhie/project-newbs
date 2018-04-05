@@ -17,11 +17,11 @@ ii. Navigate to the folder you want to add the repo to
 
 ### Clone the repo:
  1. Fork the repo and copy the URL
- 2. $ git clone <YOURREPOURL>
+ 2. $ git clone < YOUR REPO URL >
  3. $ git remote add upstream https://github.com/jmaldia/project-newbs.git
      - this creates a connection to the main repo so
      - you will use this to sync your repo with the main
- 4. $ git checkout -b <BRANCHNAME>
+ 4. $ git checkout -b < BRANCH NAME >
      - this creates the branch and immediately checks out the branch
      - see below for branch naming convention
  
@@ -53,14 +53,14 @@ ii. Navigate to the folder you want to add the repo to
 	- this makes it easier to revert to an older version without losing a lot of work
 
 ### Steps to take when working on your Branch
-1. $ git checkout development  
+1. $ git checkout master  
 	- you need to go to the development branch first
 	- to know what branch you are on, do 
 	- $ git branch
 	- the starred branch is your current branch
 2. $ git fetch upstream
 	- this gets the new files from the main repo  
-3. $ git checkout <BRANCHNAME>
+3. $ git checkout < BRANCH NAME >
 4. $ git merge development
 	- this merges the new code with your current code
 
@@ -74,7 +74,7 @@ NOTE: Make commits often
 ### Pushing your Commits
 1. $ git checkout development  
 2. $ git fetch upstream 
-3. $ git checkout <BRANCHNAME>
+3. $ git checkout < BRANCH NAME >
 4. $ git merge development  
-5. $ git push origin <BRANCHNAME>
+5. $ git push origin < BRANCH NAME >
 6. Go to github and issue a Pull Request from your repo
