@@ -15,7 +15,9 @@ font-family: 'Cedarville Cursive', cursive; // for styling
 font-family: 'Athiti', sans-serif; // for the whole page*/
 
 
-/*SITE STYLES*/
+/**************************/
+/*       SITE STYLES      */
+/**************************/
 body{
 	background-color: #FFFFFF;
 }
@@ -28,7 +30,11 @@ a:hover {
 	border-bottom: 1px solid #dfe6e9;
 }
 
-/*NAVIGATION*/
+
+
+/**************************/
+/*      NAVIGATION        */
+/**************************/
 header { 
 	width: 100%;
 	position: fixed;
@@ -89,88 +95,82 @@ nav {
 	text-decoration: underline;
 }
 
-/*MAIN BODY*/
 
+
+/**************************/
+/*       MAIN BODY        */
+/**************************/
 .main-body {
 	width: 100%;
 	margin-top: 85px;
 }
-.main-header{
- display: none;
- }
-img{
-	vertical-align: middle;
-}
+
+
+
+/**************************/
+/*      MAIN HEADER       */
+/**************************/
 
 /* Slideshow container */
 .slideshow-container {
-  width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-/*.main-header{
-	display: none;
-}*/
-
-.main-header{
-	width: 100%;
-	max-height: 650px;
-	box-sizing: border-box;
 	margin: 0 auto;
-	overflow: hidden;
-}
-
-/*.main-header img{
 	width: 100%;
-	text-align: center;
-}*/
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+	height: 750px;
+	max-height: 750px;
+	position: relative;
+	overflow: hidden!important;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/*.main-header{
+.main-header {
+	margin: 0 auto;
 	width: 100%;
-}*/
-
-.title h1 {
-	z-index: 3;
-	font-size: 100px;
-	position: absolute;
-	top: 28%;
-	color: #ffffff;
-	font-family: 'IM Fell French Canon SC', serif;
-	text-shadow: 1px 1px 2px #2d3436;
-}
-
-.title {
+	height: 750px;
+	max-height: 750px;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden!important;
+	box-sizing: border-box;
+	text-align: center;
+
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
+
+.main-header img {
+	width: 100%;	/*vertical-align: middle;*/
+}
+
+.main-header-az {
+	background-image: url(../img/Arizona3.jpeg);
+}
+
+.main-header-ny {
+	background-image: url(../img/NewYork3.jpeg);
+}
+
+.main-header-sf {
+	background-image: url(../img/SanFrancisco3.jpeg);\
+}
+
+.title {
+	z-index: 3;
+	font-size: 100px;
+	/*position: absolute;*/
+	/*top: 28%;*/
+	color: #ffffff;
+	font-family: 'IM Fell French Canon SC', serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px #2d3436;
+}
+
+/*.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/
 
 .headline-p {
 	width: 80%;
@@ -179,48 +179,86 @@ img{
 }
 
 .headline-p p {
-	font-size: 18px;
+	font-size: 18px;	
 	font-weight: 600;
 }
 
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
 /* The dots/bullets/indicators */
+.dots {
+	margin-top: 20px;
+	text-align: center;
+}
+
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+	background-color: #717171;
 }
 
 /* Fading animation */
-.Slides {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+.slides {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+	from {opacity: .4} 
+	to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+	from {opacity: .4} 
+	to {opacity: 1}
 }
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+	.prev, .next,.text {font-size: 11px}
 }
-/*FEATUERED CITIES*/
+
+
+
+
+/**************************/
+/*    FEATUERED CITIES    */
+/**************************/
 #featured-cities {
 	width: 80%;
 	max-width: 1000px;
@@ -279,8 +317,12 @@ box-shadow: 0px 2px 12px -1px rgba(181,177,181,1);
 }
 
 
+/**************************/
+/*         TEAM           */
+/**************************/
 
-/*TEAM*/
 
 
-/*FOOTER*/
+/**************************/
+/*        FOOTER          */
+/**************************/
