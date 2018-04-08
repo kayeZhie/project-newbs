@@ -341,6 +341,10 @@ nav {
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 }
+.city-row img{
+	width: 480px;
+	height: 320px;
+}
 
 
 /**************************/
