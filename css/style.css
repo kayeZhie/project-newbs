@@ -350,16 +350,26 @@ nav {
 /**************************/
 /*         TEAM           */
 /**************************/
-.team div {
-	float: right;
+.team-flex-container  {
 	display: flex;
 	justify-content: center;
+	
+}
+
+.team div {
+	flex-direction: row;
+	
+}
+
+.team figcaption {
+	text-align: center;
 }
 .image {
 	border-radius: 50%;
 	padding: 50px;
 	margin: 0 auto;
 }
+
 
 
 /**************************/
