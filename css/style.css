@@ -381,20 +381,19 @@ figcaption {
 	padding: 50px;
 	margin: 0 auto;
 	
-	/* To make the image responsive with overlay */
-	width: 100%;
-	height: auto;
 	
 }
 
-/* Container needed to position the overlay */
-.overlay-container {
-	position: relative;
-	width: 100%;
-	max-width: 400px;
-	text-align: center;
+/*THIS IS FOR THE IMAGE SLIDEDOWN */
+.image-slidedown {
 
 }
+
+/* Container needed to position the overlay */
+.profile-container {
+	text-align: center;
+}
+
 
 /* i element with the github icon class from font awesome library */
 .fa-github {
