@@ -304,6 +304,31 @@ nav {
 	overflow: hidden;
 }
 
+.city-box p {
+	width: 480px;;
+	padding: 15px 10px 20px 10px;
+}
+
+.city-box img {
+	/*width: 100%;*/
+	width: 480px;
+	height: 320px;
+	max-width: 480px;
+	max-height: 320px;
+	min-width: 480px;
+	min-height: 320px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.city-box-left {
+	margin-right: 20px;
+}
+
+.city-box-right {
+	margin-left: 20px;
+}
+
 .city-description {
 	height: 440px;
 	background-color: #ffffff;
@@ -324,28 +349,6 @@ nav {
 	font-weight: 800;
 }
 
-.city-box-left {
-	margin-right: 20px;
-}
-
-.city-box-right {
-	margin-left: 20px;
-}
-
-.city-box p {
-	padding: 15px 10px 20px 10px;
-}
-
-.city-box img {
-	width: 100%;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-}
-.city-row img{
-	width: 480px;
-	height: 320px;
-}
-
 
 /**************************/
 /*         TEAM           */
@@ -353,21 +356,17 @@ nav {
 .team-flex-container  {
 	display: flex;
 	justify-content: center;
-	
 }
 
 .team figure {
 	flex-direction: row;
-	
-	
 }
 
 .team figcaption {
 	text-align: center;
-	font-family: 'IM Fell French Canon SC', serif; 
-
-	  
+	font-family: 'IM Fell French Canon SC', serif; 	  
 }
+
 .team-profile-image {
 	border-radius: 50%;
 	padding: 50px;
@@ -384,7 +383,7 @@ nav {
 footer {
 	width: 100%;
 	height: 550px;
-	background-image: url(../img/footer-bg.png);
+	background-image: url(../img/footer-bg.jpg);
 	background-size: 100%;
 	background-position: bottom;
 	background-repeat: no-repeat;
