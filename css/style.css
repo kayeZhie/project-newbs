@@ -305,10 +305,8 @@ nav {
 }
 
 .city-box p {
-	box-sizing: border-box;
-	width: 480px;
-	max-width: 480px;
-	padding: 15px 20px 20px 20px;
+	width: 480px;;
+	padding: 15px 10px 20px 10px;
 }
 
 .city-box img {
@@ -369,6 +367,7 @@ nav {
 
 }
 
+/* team member photo caption */
 figcaption {
 	text-align: center;
 	font-family: 'IM Fell French Canon SC', serif;
@@ -376,10 +375,12 @@ figcaption {
 
 }
 
+/* team member image id */
 #team-profile-image {
 	border-radius: 50%;
 	padding: 50px;
 	margin: 0 auto;
+	
 	/* To make the image responsive with overlay */
 	width: 100%;
 	height: auto;
@@ -392,16 +393,39 @@ figcaption {
 	width: 100%;
 	max-width: 400px;
 	text-align: center;
-	font-size: 50px;
-
-
 
 }
 
+/* i element with the github icon class from font awesome library */
 .fa-github {
 	
 	
 }
+
+/* individual anchor element hover effects */
+.icon-container .aracely-anchor :hover {
+	color: cyan;
+	opacity: 1;
+}
+
+.icon-container .jon-anchor :hover {
+	color: blue;
+	opacity: 1;
+}
+
+.icon-container .karren-anchor :hover {
+	color: darkturquoise;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
 
 
 
