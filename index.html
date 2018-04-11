@@ -18,7 +18,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Athiti|Cedarville+Cursive|IM+Fell+French+Canon+SC" rel="stylesheet">
 	</head>
   
-	<body>
+	<body id="body">
 		<header id="home" class="border-bottom">
 			<nav>
 				<div class="brand">
@@ -26,7 +26,7 @@
 				</div>
 				<div class="navigation">
 					<ul>
-						<li><a href="#home">Home</a></li>
+						<li><a href="#body">Home</a></li>
 						<li><a href="#new-york">New York</a></li>
 						<li><a href="#san-fran">San Francisco</a></li>
 						<li><a href="#tucson">Tucson</a></li>
@@ -87,7 +87,7 @@
 
 <!-- FEATURED CITIES -->
 			<section id="featured-cities">
-				<div id="new-york" class="city border-bottom">
+				<div id="new-york" class="city">
 					
 					<h1>New York</h1>
 
@@ -141,7 +141,7 @@
 					</div>
 				</div>
 
-				<div id="san-fran" class="city border-bottom">
+				<div id="san-fran" class="city">
 						
 					<h1>San Francisco</h1>
 
@@ -184,7 +184,7 @@
 					</div>
 				</div>
 
-				<div id="tucson" class="city border-bottom">
+				<div id="tucson" class="city">
 						
 					<h1>Tucson</h1>
 
@@ -231,49 +231,66 @@
 
 
 			<!-- PROJECT NEWBS TEAM -->
-			<section id=team class="team-flex-container">
-				<figure class="team-profile-container">
-					<div class="profile-container">
-						<img class="team-profile-image" src ="img/AracelyProfilePicture2.jpg" alt ="Aracely Valencia's Profile Picture" style ="width:240px;height:240px;">
-						<div class="hover-effect">
-							<div class="text">Fun Fact About Me: My favorite book series is the House of Night series by P.C and Kristin Cast</div>
+			<section id="team" class="team-flex-container">
+				<h1>The Project Newbs Team</h1>	
+
+
+				<div class="headline-p">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, dolore. Fugit quos libero distinctio recusandae id, incidunt veniam in animi vitae nihil obcaecati ipsum sunt deserunt repellendus porro numquam voluptatibus laudantium amet officiis illum est harum dolorum similique. Totam provident enim earum obcaecati impedit, libero, natus similique rerum quod asperiores in ipsa veniam. Ipsum atque accusantium asperiores, laborum distinctio quisquam placeat esse porro. Iusto recusandae cum nam blanditiis iure magni omnis, in nisi vel sunt pariatur repellendus quo mollitia fugit.
+					</p>
+				</div>
+
+				<div class="team-profiles">
+
+					<figure class="team-profile-container">
+						<div class="profile-container">
+							<img class="team-profile-image" src ="img/AracelyProfilePicture2.jpg" alt ="Aracely Valencia's Profile Picture">
+							<div class="hover-effect">
+								<figcaption>Aracely Valencia</figcaption>
+								<div class="text">Fun Fact: My favorite book series is the House of Night series by P.C and Kristin Cast</div>
+								<span class="icon-container">
+									<a href="https://github.com/aereyna">
+										<i class="fab fa-github-square aracely-anchor"></i>
+									</a>
+								</span>
+							</div>
 						</div>
-						<figcaption>Aracely Valencia</figcaption>
-						<span class="icon-container">
-							<a href="https://github.com/aereyna" class="aracely-anchor">
-								<i class="fab fa-github-square" style="font-size:48px;color:black;"></i>
-							</a>
-						</span>
-					</div>
-				</figure>
+					</figure>
 
-				<figure class="team-profile-container">
-					<div class="profile-container">
-						<img class="team-profile-image" src ="img/JonMaldiaProfilePicture.jpg" alt ="Jon Maldia's Profile Picture" style ="width:240px;height:240px;">
-						<figcaption>Jon Maldia</figcaption>
-						<span class="icon-container">
-							<a href="https://github.com/jmaldia" class="jon-anchor">
-								<i class="fab fa-github-square" style="font-size:48px;color:black;"></i>
-							</a>
-						</span>
-					</div>
-
-
+					<figure class="team-profile-container">
+						<div class="profile-container">
+							<img class="team-profile-image" src ="img/JonMaldiaProfilePicture.jpg" alt ="Jon Maldia's Profile Picture">
+							<div class="hover-effect">
+								<figcaption>Jon Maldia</figcaption>
+								<div class="text">Fun Fact: I've lived in 30+homes, studied in 12+ schools and I'm not in the army.</div>
+								<span class="icon-container">
+									<a href="https://github.com/jmaldia">
+										<i class="fab fa-github-square jon-anchor"></i>
+									</a>
+								</span>
+							</div>
+						</div>
+					</figure>
 					
-				</figure>
-				
-				<figure class="team-profile-container">
-					<div class="profile-container">
-						<img class="team-profile-image"  src ="img/KarrenProfilePicture.png" alt ="Karren Zoleta's Profile Picture" style = "width:240px;height:240px;">
-						<figcaption>Karren Zoleta</figcaption>
-						<span class="icon-container">
-							<a href="https://github.com/kayeZhie" class="karren-anchor">
-								<i class="fab fa-github-square" style="font-size:48px;color:black;"></i>
-							</a>
-						</span>
-					</div>
+					<figure class="team-profile-container">
+						<div class="profile-container">
+							<img class="team-profile-image"  src ="img/KarrenProfilePicture.png" alt ="Karren Zoleta's Profile Picture">
+							<div class="hover-effect">
+								<figcaption>Karren Zoleta</figcaption>
+								<div class="text">Fun Fact: I've lived in 30+homes, studied in 12+ schools and I'm not in the army.</div>
+								<span class="icon-container">
+									<a href="https://github.com/kayeZhie">
+										<i class="fab fa-github-square karren-anchor"></i>
+									</a>
+								</span>
+							</div>
+						</div>
+					</figure>
 
-				</figure>
+				</div>
+
+				
 			</section>
 		
 		<footer>

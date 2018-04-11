@@ -112,8 +112,12 @@ nav {
 /**************************/
 
 /* Slideshow container */
-#headliner, #featured-cities, #team {
-	border-bottom: 1px solid #dfe6e9;
+#headliner, #team {
+	border-bottom: 2px solid #dfe6e9;
+}
+
+#team {
+	border-top: 2px solid #dfe6e9;
 }
 
 .slideshow-container {
@@ -353,26 +357,40 @@ nav {
 /**************************/
 /*         TEAM           */
 /**************************/
+#team h1 {
+	padding: 40px 0;
+	color: #111;
+	font-size: 70px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#team .headline-p {
+	text-align: center;
+}
+
 .team-flex-container  {
 	display: flex;
 	justify-content: center;
-	
-  	
-  	
+	flex-direction: column;
+	padding-bottom: 80px;
+}
+
+.team-profiles {
+	display: flex;
+	justify-content: center;
 }
 
 .team-profile-container {
 	flex-direction: row;
-	
-
 }
 
 /* team member photo caption */
 figcaption {
 	text-align: center;
-	font-family: 'IM Fell French Canon SC', serif;
+	/*font-family: 'IM Fell French Canon SC', serif;*/
+	text-transform: uppercase;
 	font-size: 28px;  
-
 }
 
 /* team member image id */
@@ -380,35 +398,35 @@ figcaption {
 	border-radius: 50%;
 	padding: 50px;
 	margin: 0 auto;
-	
-	
 }
 
 /* ****THIS IS FOR THE IMAGE SLIDEDOWN *** */
 .hover-effect {
-	position: absolute;
-	top: 0;
-  	bottom: 0;
-  	left: 0;
-  	right: 0;
-  	height: 100px;
-  	width: 100px;
-  	opacity: 0;
+	padding: 15px 25px 0 25px;
+  	height: 330px;
+  	width: 330px;
+  	position: relative;
+	box-sizing: border-box;
+	border-radius: 50%;
+	top: -340px;
+  	left: 5px;
+  	display: none;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	background-color: #2c3e50;
+  	opacity: .8;
   	transition: .5s ease;
-
-
+  	color: #ffffff;
 }
 
-.text {
-	color: white;
-	
+img.team-profile-image {
+	width:240px;
+	height:240px;
 }
 
-img.team-profile-image:hover, img.team-profile-image:active {
-	background-color: cyan;
-	opacity: 1;
-	
-	
+img.team-profile-image:hover + .hover-effect, .hover-effect:hover {
+	display: flex;
 }
 
 /* Container needed to position the overlay */
@@ -418,26 +436,16 @@ img.team-profile-image:hover, img.team-profile-image:active {
 
 
 /* i element with the github icon class from font awesome library */
-.fa-github {
-	
-	
+.fa-github-square {
+	padding-top: 10px;
+	font-size: 36px;
+	color: #000000; 	
 }
 
 /* individual anchor element hover effects */
-.icon-container .aracely-anchor :hover {
-	color: cyan;
-	opacity: 1;
-}
-
-.icon-container .jon-anchor :hover {
-	color: blue;
-	opacity: 1;
-}
-
-.icon-container .karren-anchor :hover {
-	color: darkturquoise;
-	opacity: 1;
-}
+.aracely-anchor:hover { color: cyan; }
+.jon-anchor:hover { color: #3498db; }
+.karren-anchor:hover { color: #1abc9c; }
 
 
 
