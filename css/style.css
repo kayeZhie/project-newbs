@@ -23,7 +23,7 @@ body{
 }
 
 a:hover {
-	color: #E85646!important;
+	color: #1abc9c!important;
 }
 
 .border-bottom {
@@ -67,9 +67,15 @@ nav {
 	color: #111;
 }
 
-.fa-suitcase {
-	font-size: 24px;
-	padding-right: 10px
+.brand a:hover {
+	color: cyan!important;
+}
+
+
+.fa-dot-circle {
+	font-size: 30px;
+	padding: 10px 15px 0 0;
+	color: #3498db!important;
 }
 
 .navigation {
@@ -112,7 +118,7 @@ nav {
 /**************************/
 
 /* Slideshow container */
-#headliner, #team {
+#headliner {
 	border-bottom: 2px solid #dfe6e9;
 }
 
@@ -358,7 +364,7 @@ nav {
 /*         TEAM           */
 /**************************/
 #team h1 {
-	padding: 40px 0;
+	padding: 100px 0 0 0;
 	color: #111;
 	font-size: 70px;
 	text-align: center;
@@ -373,7 +379,6 @@ nav {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	padding-bottom: 80px;
 }
 
 .team-profiles {
@@ -402,7 +407,7 @@ figcaption {
 
 /* ****THIS IS FOR THE IMAGE SLIDEDOWN *** */
 .hover-effect {
-	padding: 15px 25px 0 25px;
+	padding: 0 25px 0 25px;
   	height: 330px;
   	width: 330px;
   	position: relative;
@@ -436,7 +441,7 @@ img.team-profile-image:hover + .hover-effect, .hover-effect:hover {
 
 
 /* i element with the github icon class from font awesome library */
-.fa-github-square {
+.fa-github-square, .fa-linkedin, .fa-twitter {
 	padding-top: 10px;
 	font-size: 36px;
 	color: #000000; 	
@@ -446,17 +451,6 @@ img.team-profile-image:hover + .hover-effect, .hover-effect:hover {
 .aracely-anchor:hover { color: cyan; }
 .jon-anchor:hover { color: #3498db; }
 .karren-anchor:hover { color: #1abc9c; }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
